@@ -1,0 +1,65 @@
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+.navbar li {
+  float: right;
+}
+.navbar li:hover {
+  transform: scale(1.2);
+}
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  background-color: rgb(0, 0, 0);
+}
+.navbar li a:hover {
+  background-color: #1f3473;
+}
+
+.titulo {
+  text-decoration: none;
+  text-align: center;
+  color: navy;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: none;
+}
+
+.imagenes {
+  display: flex;
+  padding: 2px;
+  margin: 22px;
+}
+
+.imagenes img {
+  margin-left: 50px;
+}
+
+.sufro {
+  text-transform: uppercase;
+  padding: 2px;
+  border: 4px solid rgb(1, 1, 13);
+  color: white;
+  background-color: darkslategray;
+}
+
+.lavivo {
+  text-transform: uppercase;
+  padding: 2px;
+  border: 4px solid rgb(1, 1, 13);
+  color: white;
+  background-color: darkslategray;
+}
+
+body {
+  background-color: coral;
+}/*# sourceMappingURL=stylos.css.map */

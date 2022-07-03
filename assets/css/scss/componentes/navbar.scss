@@ -1,0 +1,40 @@
+$colorletras: #1f3473;
+$tipoletras: "Courier New", Courier, monospace;
+$mensaje: "hola a todos";
+$colorfondo:rgb(0, 0, 0);
+$coloralpaso:#1f3473;
+$pocicioncentral:center;
+
+
+
+
+
+.navbar {
+    ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: $colorfondo;
+     }
+
+  li {
+ float: right;
+     }
+  li:hover {
+ transform: scale(1.2);
+ }
+
+ li a {
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 20px;
+ text-decoration: none;
+ background-color: $colorfondo;
+ }
+
+ li a:hover {
+ background-color: $coloralpaso;
+  }
+}
