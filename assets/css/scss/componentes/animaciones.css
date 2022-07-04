@@ -1,0 +1,33 @@
+.nuestrasmarcas img {
+  padding: 22px;
+  margin: 30px;
+  background-color: darkgrey;
+}
+
+.img1:hover {
+  transform: scale(1.2);
+}
+
+.img2:hover {
+  transform: scale(1.2);
+}
+
+.img3:hover {
+  transform: scale(1.2);
+}
+
+.img4:hover {
+  transform: scale(1.2);
+}
+
+.img5:hover {
+  transform: scale(1.2);
+}
+
+.img6:hover {
+  transform: scale(1.2);
+}
+
+.img7:hover {
+  transform: scale(1.2);
+}/*# sourceMappingURL=animaciones.css.map */

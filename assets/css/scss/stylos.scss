@@ -4,6 +4,8 @@
 @use "./componentes/titulo.scss"; //titulo 
 @use "./componentes/imagenes.scss"; //imagenes
 @use "./componentes/texto";
+@use "./componentes/animaciones";
+
 
 
 
@@ -12,7 +14,7 @@
 
 
 body{
-    background-color: coral;
+    background-color: white;
 }
 
 

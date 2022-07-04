@@ -34,6 +34,12 @@ h2 {
   text-decoration: none;
 }
 
+.marcas {
+  text-decoration: none;
+  text-align: center;
+  color: navy;
+}
+
 .imagenes {
   display: flex;
   padding: 2px;
@@ -60,6 +66,40 @@ h2 {
   background-color: darkslategray;
 }
 
+.nuestrasmarcas img {
+  padding: 22px;
+  margin: 30px;
+  background-color: darkgrey;
+}
+
+.img1:hover {
+  transform: scale(1.2);
+}
+
+.img2:hover {
+  transform: scale(1.2);
+}
+
+.img3:hover {
+  transform: scale(1.2);
+}
+
+.img4:hover {
+  transform: scale(1.2);
+}
+
+.img5:hover {
+  transform: scale(1.2);
+}
+
+.img6:hover {
+  transform: scale(1.2);
+}
+
+.img7:hover {
+  transform: scale(1.2);
+}
+
 body {
-  background-color: coral;
+  background-color: white;
 }/*# sourceMappingURL=stylos.css.map */
