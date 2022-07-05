@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(250, 250, 250);
 }
 .navbar li {
   float: right;
@@ -17,10 +17,10 @@
   text-align: center;
   padding: 20px;
   text-decoration: none;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(250, 250, 250);
 }
 .navbar li a:hover {
-  background-color: #1f3473;
+  background-color: #a2a4ab;
 }
 
 .titulo {
@@ -101,5 +101,9 @@ h2 {
 }
 
 body {
+  background-color: white;
+}
+
+.bg-colorr {
   background-color: white;
 }/*# sourceMappingURL=stylos.css.map */
