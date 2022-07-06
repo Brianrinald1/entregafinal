@@ -14,19 +14,21 @@ $grid-breakpoints: (
   xl: 1200px,
   xxl: 1400px
 );
-.description{
+.desciption{
     height: 25px;
 overflow: hidden;
 transition: height .3s ease-in .3s  ;
 
 }
-.description:hover{
+.desciption:hover{
     height: 80px;
 }
 
+.card:hover{
+        transform: scale(1.1);
+  
 
-
-
+}
 
 
 

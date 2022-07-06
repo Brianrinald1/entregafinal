@@ -100,14 +100,18 @@ h2 {
   transform: scale(1.2);
 }
 
-.description {
+.desciption {
   height: 25px;
   overflow: hidden;
   transition: height 0.3s ease-in 0.3s;
 }
 
-.description:hover {
+.desciption:hover {
   height: 80px;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
 
 body {
