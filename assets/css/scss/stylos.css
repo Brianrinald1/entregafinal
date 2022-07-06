@@ -118,6 +118,10 @@ body {
   background-color: white;
 }
 
+.verde {
+  background-color: green;
+}
+
 .bg-colorr {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }/*# sourceMappingURL=stylos.css.map */

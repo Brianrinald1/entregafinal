@@ -6,6 +6,7 @@
 @use "./componentes/texto";
 @use "./componentes/animaciones";
 
+
 $grid-breakpoints: (
   xs: 0,
   sm: 576px,
@@ -14,33 +15,17 @@ $grid-breakpoints: (
   xl: 1200px,
   xxl: 1400px
 );
-.desciption{
-    height: 25px;
-overflow: hidden;
-transition: height .3s ease-in .3s  ;
-
-}
-.desciption:hover{
-    height: 80px;
-}
-
-.card:hover{
-        transform: scale(1.1);
-  
-
-}
-
-
-
-
 
 body{
     background-color: white;
 }
 
-
+.verde{
+    background-color: green;
+}
 .bg-colorr{
-    background-color:white;
+    background-color:rgb(255, 255, 255);
+   
 }
 
 

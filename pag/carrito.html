@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/scss/stylos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+
+</head>
+
+<body>
+    <table class="table table-dark table-striped">
+
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">productos</th>
+                <th scope="col">Precio</th>
+                <th scope="col">Cantidad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td class="table__productos">
+                    <img src="https://5.imimg.com/data5/LF/YC/MY-6897438/sport-t-shirt-500x500.jpg" alt="">
+                    <h6 class="titulo">titulo</h6>
+                </td>
+                <td class="table__precio">
+                    <p>$3400</p>
+                </td>
+                <td class="table__cantidad">
+                    <input type="number" min="1" value="1">
+                    <button class="delate btn btn-danget">x</button>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <div class="row mx-4">
+        <div class="col">
+            <h3 class="itemCartTotal">Total: 0</h3>
+        </div>
+        <div class="col d-flex justify-content-end">
+            <button class="btn btn-successs bg-light ">COMPRAR</button>
+        </div>
+    </div>
+    </main>
+
+</body>
+
+</html>
