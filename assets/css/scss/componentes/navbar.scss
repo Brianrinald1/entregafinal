@@ -1,8 +1,8 @@
-$colorletras: #4b4848f3;
+$colorletras: #0e0101f3;
 $tipoletras: "Courier New", Courier, monospace;
 $mensaje: "hola a todos";
-$colorfondo:rgb(250, 250, 250);
-$coloralpaso:#a2a4ab;
+$colorfondo:rgb(0, 0, 0);
+$coloralpaso:#0938e3;
 $pocicioncentral:center;
 
 
@@ -10,12 +10,13 @@ $pocicioncentral:center;
 
 
 .navbar {
+    display: flex;
     ul {
  list-style-type: none;
  margin: 0;
  padding: 0;
  overflow: hidden;
- background-color: $colorfondo;
+ background-color: white;
      }
 
   li {
@@ -31,7 +32,7 @@ $pocicioncentral:center;
  text-align: center;
  padding: 20px;
  text-decoration: none;
- background-color: $colorfondo;
+ background-color: white;
  }
 
  li a:hover {

@@ -1,9 +1,12 @@
+.navbar {
+  display: flex;
+}
 .navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(250, 250, 250);
+  background-color: white;
 }
 .navbar li {
   float: right;
@@ -17,8 +20,8 @@
   text-align: center;
   padding: 20px;
   text-decoration: none;
-  background-color: rgb(250, 250, 250);
+  background-color: white;
 }
 .navbar li a:hover {
-  background-color: #a2a4ab;
+  background-color: #0938e3;
 }/*# sourceMappingURL=navbar.css.map */

@@ -1,9 +1,14 @@
 $ninguno: none;
 $position:center;
-.titulo{
-    
+$colorprincipal: tomato;
 
-    text-decoration: none;
+
+
+
+.titulo{
+
+
+    text-decoration: $ninguno;
     text-align: $position;
     color: navy;
     
@@ -13,7 +18,8 @@ h2{
     text-decoration: $ninguno;
 }
 .marcas {
-    text-decoration: none;
+    
+    text-decoration: $ninguno;
     text-align: $position;
     color: navy;
 }

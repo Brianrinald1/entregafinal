@@ -5,7 +5,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../assets/css/scss/stylos.css" />
     <title>Elegantesport</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,158 +16,132 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <ul>
-            <li><a href="../pag/contacto.html">Contactanos</a></li>
-            <li><a href="../pag/vestir.html" class="vestir">vestir</a></li>
-            <li><a href="../pag/calle.html" class="calle">calle</a></li>
-            <li><a href="../pag/deportivo.html">Deportivo</a></li>
-            <a href="../index.html">
-                <img class="logo" src="https://fv9-2.failiem.lv/thumb_show.php?i=pueyatd3f&view" alt="logo" /></a>
-        </ul>
-    </nav>
+    
+
     <header>
+        <nav class="d-flex justify-content-center py-3 bg-dark">
+            <ul class="nav nav-pills">
+              <li class="nav-item"><a href="../index.html" class="nav-link active" aria-current="page"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Home</font></font></a></li>
+              <li class="nav-item"><a href="./pag/vestir.html" class="nav-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vestir</font></font></a></li>
+              <li class="nav-item"><a href="./pag/calle.html" class="nav-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Calle</font></font></a></li>
+              <li class="nav-item"><a href="./pag/deportivo.html" class="nav-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Deportivo</font></font></a></li>
+              <li class="nav-item"><a href="/pag/contacto.html" class="nav-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contacto</font></font></a></li>
+            </ul>
+        </nav>
         <h1 class="titulo_deportivo">Tu remera tiene onda !</h1>
     </header>
 
     <main>
-        <!--remera blanca-->
         
-        <section class="main-deportivo">
-            <article class="remera" action="">
-                <div class="producto">
-                    <img src="https://5.imimg.com/data5/IX/PH/MY-46152585/sports-tshirt-500x500.jpg" alt=""
-                        class="producto__img" />
-                    <div class="producto__descripcion">
-                        <h2 class="producto__titulo">Remera Fluor</h2>
-                        <div> <p>$7800</p>
-                        <select class="talle_remera_negra" name="talle">
-                            <option value="S">Small</option>
-                            <option value="M">Medium</option>
-                            <option value="L">Larg</option>
-                            <option value="XL">Xlarg</option>
-                        </select>
-                        <form>
-                            <input class="boton_vestir" type="submit" value="Comprar" />
-                            <input type="checkbox" name="talle" required="" />
-                        </form>
-                        </div>
-                    </div>
-                </div>
-        </article>
-        <article>
-            <div class="remera" action="">
-                <div class="producto">
-                    <img src="https://5.imimg.com/data5/LF/YC/MY-6897438/sport-t-shirt-500x500.jpg" alt=""
-                        class="producto__img" />
-                    <div class="producto__descripcion">
-                        <h2 class="producto__titulo">Remera Blanca</h2>
-            <div>  <p>$8800</p>
-                        <select class="talle_remera_negra" name="talle">
-                            <option value="S">Small</option>
-                            <option value="M">Medium</option>
-                            <option value="L">Larg</option>
-                            <option value="XL">Xlarg</option>
-                        </select>
-                        <form>
-                            <input class="boton_vestir" type="submit" value="Comprar" />
-                            <input type="checkbox" name="talle" required="" />
-                        </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </article>
-        <article>
-            <div class="remera" action="">
-                <div class="producto">
-                    <img src="https://5.imimg.com/data5/GW/PG/MY-36506908/sports-t-shirt-500x500.jpg" alt=""
-                        class="producto__img" />
-                    <div class="producto__descripcion">
-                        <h2 class="producto__titulo">Remera Amarilla</h2>
-                        <div>   <p>$5400</p>
-                        <select class="talle_remera_negra" name="talle">
-                            <option value="S">Small</option>
-                            <option value="M">Medium</option>
-                            <option value="L">Larg</option>
-                            <option value="XL">Xlarg</option>
-                        </select>
-                        <form>
-                            <input class="boton_vestir" type="submit" value="Comprar" />
-                            <input  type="checkbox" name="talle" required="" />
-                        </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </article>
-        <article>
-            <div class="remera" action="">
-                <div class="producto">
-                    <img src="https://5.imimg.com/data5/CK/DV/MY-37871744/sports-t-shirt-500x500.jpg" alt=""
-                        class="producto__img" />
-                    <div class="producto__descripcion">
-                        <h2 class="producto__titulo">Remera amaril/negr</h2>
-                        <div>  <p>$9800</p>
-                        <select class="talle_remera_negra" name="talle">
-                            <option value="S">Small</option>
-                            <option value="M">Medium</option>
-                            <option value="L">Larg</option>
-                            <option value="XL">Xlarg</option>
-                        </select>
-                        
-                            <input class="boton_vestir" type="submit" value="Comprar" />
-                            <input type="checkbox" name="talle" required="" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </article>
-    <article>
-            <div class="remera" action="">
-                <div class="producto">
-                    <img src="https://d2r9epyceweg5n.cloudfront.net/stores/871/662/products/camiseta-acetato-31-622a3a1a593ec3419b15619961902286-1024-1024.png" alt=""
-                        class="producto__img" />
-                    <div class="producto__descripcion">
-                        <h2 class="producto__titulo">Remera Roja</h2>
-                        <div>   <p>$7800</p>
-                        <select class="talle_remera_negra" name="talle">
-                            <option value="S">Small</option>
-                            <option value="M">Medium</option>
-                            <option value="L">Larg</option>
-                            <option value="XL">Xlarg</option>
-                        </select>
-                        
-                            <input class="boton_vestir" type="submit" value="Comprar" >
-                            <input type="checkbox" name="talle" required="" />
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </article>
-    <article>
-            <div class="remera" action="">
-                <div class="producto">
-                    <img src="https://http2.mlstatic.com/D_Q_NP_2X_715984-MLA48277697874_112021-P.jpg" alt=""
-                        class="producto__img" />
-                    <div class="producto__descripcion">
-                        <h2 class="producto__titulo">Remera Azul</h2>
-                            <div>  <p>$3870</p>
-                        <select class="talle_remera_negra" name="talle">
-                            <option value="S">Small</option>
-                            <option value="M">Medium</option>
-                            <option value="L">Larg</option>
-                            <option value="XL">Xlarg</option>
-                        </select>
-                            <input class="boton_vestir" type="submit" value="Comprar" />
-                            <input type="checkbox" name="talle" required="" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </article>
-        </section>
+			</div>
+		</div>
+		
+		<div class="productos row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+			<div class="col d-flex justify-content-center-mb-4">
+				<div class="card shadow mb-1 bg-dark rounded" style="width: 18rem;">
+					<h5 class="card-title pt-2 text-center text-white">Estilo Deportivo</h5>
+					<img src="https://5.imimg.com/data5/LF/YC/MY-6897438/sport-t-shirt-500x500.jpg" class="card-img-top"
+						alt="...">
+					<div class="card-body">
+						<p class="card-text text-white-50 desciption">remera entallada blanca</p>
+						<h5 class="text-primary text-white">Precio: <span class="precio">$ 3500</span></h5>
+						<button class="btn btn-primary-button text-white ">añadir al carrito</button>
+					</div>
+				</div>
+			</div>
+			<div class="col d-flex justify-content-center-mb-4">
+				<div class="card shadow mb-1 bg-dark rounded" style="width: 18rem;">
+					<h5 class="card-title pt-2 text-center text-white">Estilo Deportivo</h5>
+					<img src="https://5.imimg.com/data5/LF/YC/MY-6897438/sport-t-shirt-500x500.jpg" class="card-img-top"
+						alt="...">
+					<div class="card-body">
+						<p class="card-text text-white-50 desciption">remera entallada blanca
+						</p>
+						<h5 class="text-primary text-white">Precio: <span class="precio">$ 3500</span></h5>
+						<button class="btn btn-primary-button text-white ">añadir al carrito</button>
+					</div>
+				</div>
+			</div>
+			<div class="col d-flex justify-content-center-mb-4">
+				<div class="card shadow mb-1 bg-dark rounded" style="width: 18rem;">
+					<h5 class="card-title pt-2 text-center text-white">Estilo Deportivo</h5>
+					<img src="https://5.imimg.com/data5/LF/YC/MY-6897438/sport-t-shirt-500x500.jpg" class="card-img-top"
+						alt="...">
+					<div class="card-body   ">
+
+						<p class="card-text text-white-50 desciption">remera entallada blanca</p>
+						<h5 class="text-primary text-white">Precio: <span class="precio">$ 3500</span></h5>
+						<button class="btn btn-primary-button text-white ">añadir al carrito</button>
+					</div>
+				</div>
+			</div>
+			<div class="col d-flex justify-content-center-mb-4">
+				<div class="card shadow mb-1 bg-dark rounded" style="width: 18rem;">
+					<h5 class="card-title pt-2 text-center text-white">Estilo Deportivo</h5>
+					<img src="https://5.imimg.com/data5/IX/PH/MY-46152585/sports-tshirt-500x500.jpg"
+						class="card-img-top" alt="...">
+					<div class="card-body   ">
+
+						<p class="card-text text-white-50 desciption">remera deportiva marilla nike.</p>
+						<h5 class="text-primary text-white">Precio: <span class="precio">$ 3500</span></h5>
+						<button class="btn btn-primary-button text-white ">añadir al carrito</button>
+					</div>
+				</div>
+			</div>
+			<div class="col d-flex justify-content-center-mb-4">
+				<div class="card shadow mb-1 bg-dark rounded" style="width: 18rem;">
+					<h5 class="card-title pt-2 text-center text-white">Estilo Deportivo</h5>
+					<img src="https://5.imimg.com/data5/LF/YC/MY-6897438/sport-t-shirt-500x500.jpg" class="card-img-top"
+						alt="...">
+					<div class="card-body   ">
+
+						<p class="card-text text-white-50 desciption">remera blanca estilo deportivo</p>
+						<h5 class="text-primary text-white">Precio: <span class="precio">$ 3500</span></h5>
+						<button class="btn btn-primary-button text-white ">añadir al carrito</button>
+					</div>
+				</div>
+			</div>
+			<div class="col d-flex justify-content-center-mb-4">
+				<div class="card shadow mb-1 bg-dark rounded" style="width: 18rem;">
+					<h5 class="card-title pt-2 text-center text-white">Estilo Deportivo</h5>
+					<img src="https://5.imimg.com/data5/GW/PG/MY-36506908/sports-t-shirt-500x500.jpg"
+						class="card-img-top" alt="...">
+					<div class="card-body   ">
+
+						<p class="card-text text-white-50 desciption">remera deportiva marilla nike.
+						</p>
+						<h5 class="text-primary text-white">Precio: <span class="precio">$ 3500</span></h5>
+						<button class="btn btn-primary-button text-white ">añadir al carrito</button>
+					</div>
+				</div>
+			</div>
+			<div class="col d-flex justify-content-center-mb-4">
+				<div class="card shadow mb-1 bg-dark rounded" style="width: 18rem;">
+					<h5 class="card-title pt-2 text-center text-white">Estilo Deportivo</h5>
+					<img src="https://5.imimg.com/data5/CK/DV/MY-37871744/sports-t-shirt-500x500.jpg"
+						class="card-img-top" alt="...">
+					<div class="card-body   ">
+
+						<p class="card-text text-white-50 desciption">remera deportiva liviana</p>
+						<h5 class="text-primary text-white">Precio: <span class="precio">$ 3500</span></h5>
+						<button class="btn btn-primary-button text-white ">añadir al carrito</button>
+					</div>
+				</div>
+			</div>
+			<div class="col d-flex justify-content-center-mb-4">
+				<div class="card shadow mb-1 bg-dark rounded" style="width: 18rem;">
+					<h5 class="card-title pt-2 text-center text-white">Estilo Deportivo</h5>
+					<img src="https://d2r9epyceweg5n.cloudfront.net/stores/871/662/products/camiseta-acetato-31-622a3a1a593ec3419b15619961902286-1024-1024.png"
+						class="card-img-top" alt="...">
+					<div class="card-body   ">
+
+						<p class="card-text text-white-50 desciption">remera roja deportiva </p>
+						<h5 class="text-primary text-white">Precio: <span class="precio">$ 3500</span></h5>
+						<button class="btn btn-primary-button text-white ">añadir al carrito</button>
+					</div>
+				</div>
+			</div>
+
     
     </main>
 
@@ -184,6 +161,9 @@
      </div> 
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+		crossorigin="anonymous"></script>
 </body>
 
 </html>
