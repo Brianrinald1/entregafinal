@@ -1,39 +1,10 @@
 $escala:scale(1.2);
 
 
-
-.nuestrasmarcas img {
-    width: 40px;
-    padding: 22px;
-    margin: 30px;
-    background-color: darkgrey;
-}
-.img1:hover{
-transform: $escala;
-}
-.img2:hover{
-    transform:$escala ;
-    }
-    .img3:hover{
-        transform: $escala;
-        }
-        .img4:hover{
-            transform: $escala ;
-            }
-            .img5:hover{
-                transform: $escala;
-                }
-                .img6:hover{
-                    transform: $escala;
-                    }
-                    .img7:hover{
-                        transform: $escala;
-
-                        }
-
                         .desciption{
                             height: 25px;
                         overflow: hidden;
+                        filter: grayscale(1);
                         transition: height .3s ease-in .3s  ;
                         
                         }

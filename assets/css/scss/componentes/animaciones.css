@@ -1,41 +1,7 @@
-.nuestrasmarcas img {
-  width: 40px;
-  padding: 22px;
-  margin: 30px;
-  background-color: darkgrey;
-}
-
-.img1:hover {
-  transform: scale(1.2);
-}
-
-.img2:hover {
-  transform: scale(1.2);
-}
-
-.img3:hover {
-  transform: scale(1.2);
-}
-
-.img4:hover {
-  transform: scale(1.2);
-}
-
-.img5:hover {
-  transform: scale(1.2);
-}
-
-.img6:hover {
-  transform: scale(1.2);
-}
-
-.img7:hover {
-  transform: scale(1.2);
-}
-
 .desciption {
   height: 25px;
   overflow: hidden;
+  filter: grayscale(1);
   transition: height 0.3s ease-in 0.3s;
 }
 
