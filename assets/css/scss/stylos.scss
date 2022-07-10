@@ -8,15 +8,14 @@
 @use "./componentes/social";
 
 
-$colores:(
+$colores:(top
 'primary': rgb(26, 11, 107),
 'secundario': rgb(36, 36, 36),
 
 
 );
-.dark{
-    background-color: red;
-}
+
+
 $grid-breakpoints: (
   xs: 0,
   sm: 576px,
@@ -28,16 +27,9 @@ $grid-breakpoints: (
 
 
 
-body{
-    background-color: white;
-}
 
 
 
-.bg-colorr{
-    background-color:white;
-
-}
 
 
 

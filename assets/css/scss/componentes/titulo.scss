@@ -3,14 +3,16 @@ $position:center;
 $colorprincipal: tomato;
 
 
-
+@mixin titulos {
+    text-decoration: $ninguno;
+    text-align: $position;
+    color: navy;
+}
 
 .titulo{
 
 
-    text-decoration: $ninguno;
-    text-align: $position;
-    color: navy;
+    @include titulos;
     
 }
 h2{
@@ -19,7 +21,5 @@ h2{
 }
 .marcas {
     
-    text-decoration: $ninguno;
-    text-align: $position;
-    color: navy;
+    @include titulos;
 }
