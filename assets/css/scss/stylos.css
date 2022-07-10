@@ -53,6 +53,10 @@ h2 {
   margin-left: 50px;
 }
 
+.fondocaja {
+  background-image: url(https://previews.123rf.com/images/grafner/grafner1502/grafner150200114/36864489-textura-de-madera-r%C3%BAstica.jpg);
+}
+
 .sufro {
   text-transform: uppercase;
   padding: 2px;
@@ -82,10 +86,6 @@ h2 {
 
 .card:hover {
   transform: scale(1.1);
-}
-
-.fondocaja {
-  background-image: url(https://c4.wallpaperflare.com/wallpaper/1006/72/31/black-wood-hd-wallpaper-wallpaper-preview.jpg);
 }
 
 .social {
@@ -130,6 +130,10 @@ h2 {
 
 .social ul li a:hover {
   padding: 10px 30px;
+}
+
+.dark {
+  background-color: red;
 }
 
 body {
