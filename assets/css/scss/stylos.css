@@ -130,4 +130,10 @@ h2 {
 
 .social ul li a:hover {
   padding: 10px 30px;
+}
+
+.footer {
+  margin-top: 50px;
+  width: 100%;
+  height: cacl(0vh);
 }/*# sourceMappingURL=stylos.css.map */
