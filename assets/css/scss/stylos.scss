@@ -7,6 +7,11 @@
 @use "./componentes/animaciones";
 @use "./componentes/social";
 
+body{
+  margin: 0;
+  margin-bottom: 40px;
+}
+
 
 $colores:(top
 'primary': rgb(26, 11, 107),
