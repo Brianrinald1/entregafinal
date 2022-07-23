@@ -10,14 +10,14 @@
 	<!-- CSS only -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-	>
+	<link rel="stylesheet" href="./assets/css/scss/whats.css">
 	<link rel="stylesheet" href="assets/css/scss/stylos.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 </head>
 
 <body class="container-lexy bg-colorr bg-dark">
-
 
 	<header>
 		<nav class="container-flexy navbar bg-dark ">
@@ -47,11 +47,9 @@
 							<li class="nav-item">
 								<a class="nav-link active" href="./pag/deportivo.html">Deportivo</a>
 							</li>
-
 							<li class="nav-item">
 								<a class="nav-link active" href="./pag/carrito.html">Carrito</a>
 							</li>
-
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
 								<li><a class="dropdown-item" href="#">Action</a></li>
@@ -59,7 +57,6 @@
 								<li>
 									<hr class="dropdown-divider">
 								</li>
-
 							</ul>
 							<form class="d-flex" role="search">
 								<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -70,7 +67,8 @@
 			</div>
 		</nav>
 	</header>
-	<main conteiner-flexy>
+	<main conteiner>
+		<!-- esto es el baner de iconos -->
 		<div class="social">
 			<ul>
 				<li><a href="http://www.facebook.com" target="_blank" class="bi bi-facebook" <img
@@ -93,6 +91,7 @@
 						</svg></a></li>
 			</ul>
 		</div>
+		<!-- esto es el carrusel  -->
 		<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
 			<div class="carousel-indicators">
 				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -136,17 +135,18 @@
 				<span class="visually-hidden">siguiente</span>
 			</button>
 		</div>
+
 		<h2 class="nuestrasmarcas">Nuestras ofertas de la Semana</h2>
 		<div class="container fondocaja bd-2px solid">
+			<!-- productos en descuento -->
 			<div
 				class="container productos row row-grid-breakpoints-xs row-grid-breakpoints-md m-2 row-cols-lg-4 row-cols-xl-4 row-cols-xxl-4 ">
 				<div class="col d-flex justify-content-center-mb-6 ">
 					<div class="card shadow mb-1 bg-dark rounded" style="width: 18rem;">
 						<h5 class="card-title pt-2 text-center text-white">Estilo Deportivo</h5>
-						<a href="./pag/deportivo.html"><img src="./assets/img/deportivo/blanca.jpg" class="card-img-top"
-								alt="..."></a>
+						<a href="./pag/deportivo.html"><img src="./assets/img/deportivo/blanca.webp"
+								class="card-img-top" alt="..."></a>
 						<div class="card-body">
-
 							<p class="card-text text-white-50 desciption">remera blanca estilo deportivo</p>
 							<h5 class="text-primary text-white">Precio: <span class="precio">$ 3500</span></h5>
 							<button class="btn btn-primary-button text-white ">añadir al carrito</button>
@@ -156,11 +156,10 @@
 				<div class=" col d-flex justify-content-center-mb-4">
 					<div class="card shadow mb-1 bg-dark rounded" style="width: 18rem;">
 						<h5 class="card-title pt-2 text-center text-white">Estilo Deportivo</h5>
-						<a href="./pag/deportivo.html"><img src="./assets/img/deportivo/roja.png" class="card-img-top"
+						<a href="./pag/deportivo.html"><img src="./assets/img/deportivo/roja.webp" class="card-img-top"
 								alt="..."></a>
 						<div class="card-body   ">
-
-							<p class="card-text text-white-50 desciption">remera deportiva marilla nike.
+							<p class="card-text text-white-50 desciption">remera deportiva roja.
 							</p>
 							<h5 class="text-primary text-white">Precio: <span class="precio">$ 3500</span></h5>
 							<button class="btn btn-primary-button text-white ">añadir al carrito</button>
@@ -170,11 +169,10 @@
 				<div class=" col d-flex justify-content-center-mb-4">
 					<div class="card shadow mb-1 bg-dark rounded" style="width: 18rem;">
 						<h5 class="card-title pt-2 text-center text-white">Estilo Calle</h5>
-						<a href="./pag/deportivo.html"><img src="./assets/img/deportivo/blanca.jpg" class="card-img-top"
-								alt="..."></a>
+						<a href="./pag/deportivo.html"><img src="./assets/img/deportivo/blanca.webp"
+								class="card-img-top" alt="..."></a>
 						<div class="card-body   ">
-
-							<p class="card-text text-white-50 desciption">remera deportiva liviana</p>top
+							<p class="card-text text-white-50 desciption">remera deportiva liviana blanca</p>top
 							<h5 class="text-primary text-white">Precio: <span class="precio">$ 3500</span></h5>
 							<button class="btn btn-primary-button text-white ">añadir al carrito</button>
 						</div>
@@ -183,10 +181,10 @@
 				<div class=" col d-flex justify-content-center-mb-4 ">
 					<div class="card shadow mb-1 bg-dark rounded" style="width: 18rem;">
 						<h5 class="card-title pt-2 text-center text-white">Estilo Deportivo</h5>
-						<a href="./pag/deportivo.html"><img src="./assets/img/deportivo/verdeyazul.jpg" </a
+						<a href="./pag/deportivo.html"><img src="./assets/img/deportivo/verdeyazul.webp" </a
 								class="card-img-top" alt="..."></a>
 						<div class="card-body   ">
-							<p class="card-text text-white-50 desciption">remera roja deportiva </p>
+							<p class="card-text text-white-50 desciption">remera verde y azul </p>
 							<h5 class="text-primary text-white">Precio: <span class="precio">$ 3500</span></h5>
 							<button class="btn btn-primary-button text-white ">añadir al carrito</button>
 						</div>
@@ -196,34 +194,25 @@
 			</div>
 		</div>
 		</div>
-
-
+		<!-- fORMAS DE PAGO -->
 		<h2 class=" nuestrasmarcas"> medios de pago</h2>
 		<div class="container card-group ">
-
 			<div class=" container card ">
-				<a href="https://www.mercadopago.com.ar/"><img
-						src="https://www.leccionesdearmonica.com/wp-content/uploads/2018/03/Logo-Mercado-Pago-fondocrema.png"
+				<a href="https://www.mercadopago.com.ar/"><img src="./assets/img/Logo-Mercado-Pago-fondocrema.webp"
 						class="card-img-top" alt="..."></a>
 			</div>
 			<div class="card">
-				<a href="https://www.macro.com.ar/home-page"><img
-						src="https://3dsur.com.ar/wp-content/uploads/2018/08/logo-transferencia.png"
+				<a href="https://www.macro.com.ar/home-page"><img src="./assets/img/logo-transferencia.webp"
 						class="card-img-top" alt="..."></a>
 			</div>
 			<div class="card">
-				<a href="https://www.mercadopago.com.ar/"><img
-						src="https://9a6e617c17.clvaw-cdnwnd.com/1aeef416bea3cd86ea782183c59b7025/200000163-44825457c9/33563_mercadopago.png"
+				<a href="https://www.mercadopago.com.ar/"><img src="./assets/img/33563_mercadopago.webp"
 						class="card-img-top" alt="..."></a>
 			</div>
 		</div>
 	</main>
-
+	<!-- SCRIPT DE WATHS APP -->
 	<div class="whatsapp">
-		<link rel="stylesheet" href="./assets/css/scss/whats.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-
 		<link rel="stylesheet" href="./assets/css/scss/whats2.css">
 		<div class="nav-bottom">
 			<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -231,20 +220,14 @@
 				<div class="content-whatsapp -top"><button type="button" class="closePopup">
 						<i class="material-icons icon-font-color">close</i>
 					</button>
-
-					<p> <img src="./assets/img/secretary.webp" width="50"> Hola, ¿en que podemos ayudarle? </p>
-
+					<img src="./assets/img/secretary.webp" width="50">
+					<p> Hola, ¿en que podemos ayudarle? </p>
 				</div>
 				<div class="content-whatsapp -bottom">
 					<input class="whats-input" id="whats-in" type="text" Placeholder="Enviar mensaje..." />
-
-
-
-
 					<button class="send-msPopup" id="send-btn" type="button">
 						<i class="material-icons icon-font-color--black">send</i>
 					</button>
-
 				</div>
 			</div>
 			<button type="button" id="whats-openPopup" class="whatsapp-button">
@@ -254,10 +237,7 @@
 			</button>
 			<div class="circle-anime"></div>
 		</div>
-		<script src="./assets/js/script2.js"></script>
-
 	</div>
-
 	<footer class="bg-light text-center text-lg-start ">
 		<div class="text-center p-3 bg-black">
 			<div class="text-center bg-black">© 2022 Copyright Brian Rinaldi </div>
@@ -265,6 +245,7 @@
 
 
 	<!-- JavaScript Bundle with Popper -->
+	<script src="./assets/js/script2.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
 		crossorigin="anonymous"></script>
