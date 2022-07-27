@@ -11,4 +11,37 @@
 
 .card:hover {
   transform: scale(1.1);
+}
+
+.oferta {
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 30ch;
+  -webkit-animation: typing 2s steps(30), blink 0.5s infinite step-end alternate;
+          animation: typing 2s steps(30), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }/*# sourceMappingURL=animaciones.css.map */
